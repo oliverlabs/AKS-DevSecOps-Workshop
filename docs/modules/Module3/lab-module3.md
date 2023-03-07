@@ -19,7 +19,7 @@ nav_order: 2
   * Click **Enable** next to **Dependabot security updates**
 * Enable Dependabot version updates for your repository
   * Click **Enable** next to **Dependabot version updates** to open a basic `dependabot.yml` configuration file in the `.github` directory of your repository
-  * Add the following configuration to the `dependabot.yml` file
+  * Add the following configuration to the `dependabot.yml` file, replacing the existing package-ecosystem attribute:
 
   ```yaml
   - package-ecosystem: "maven" # See documentation for possible values
